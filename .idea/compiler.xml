@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ems_emp" />
+        <module name="ems_user" />
+        <module name="ems_common" />
+        <module name="ems_files" />
+        <module name="ems_file" />
+        <module name="ems_gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="ems_file" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ems_common" options="-parameters" />
+      <module name="ems_emp" options="-parameters" />
+      <module name="ems_file" options="-parameters" />
+      <module name="ems_files" options="-parameters" />
+      <module name="ems_gateway" options="-parameters" />
+      <module name="ems_parent" options="-parameters" />
+      <module name="ems_user" options="-parameters" />
+    </option>
+  </component>
+</project>

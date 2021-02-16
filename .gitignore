@@ -1,0 +1,6 @@
+# Project exclude paths
+/ems_common/target/
+/ems_emp/target/
+/ems_files/target/
+/ems_gateway/target/
+/ems_user/target/

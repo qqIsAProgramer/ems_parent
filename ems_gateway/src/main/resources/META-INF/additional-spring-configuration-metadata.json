@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.cloud.gateway.globalcors.add-to-simple-url-handler-mapping",
+      "type": "java.lang.String",
+      "description": "Description for spring.cloud.gateway.globalcors.add-to-simple-url-handler-mapping."
+  }
+] }
