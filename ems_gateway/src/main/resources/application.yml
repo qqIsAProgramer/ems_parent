@@ -9,9 +9,12 @@ spring:
       host: localhost
       port: 8500
     gateway:
+      discovery:
+        locator:
+          enabled: true    # 开启动态服务名获取路由地址（使用 lb 必须开启）
       routes:
         - id: user_route    # 指定路由唯一标识
-          uri: lb://user    # 指定路由服务的地址
+          uri: lb://user    # 指定路由服务的地址  lb: LoadBalance 负载均衡
           predicates:
             - Path=/user/** # 指定路由规则
 
