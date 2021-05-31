@@ -11,6 +11,6 @@ spring:
       discovery:
         service-name: ${spring.application.name}
   redis:
-    host: 118.31.16.35
+    host: localhost
     password: 123456
     database: 0
